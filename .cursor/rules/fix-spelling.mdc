@@ -1,0 +1,14 @@
+---
+description: Fix obvious spelling and typo errors in user input when writing notes
+alwaysApply: true
+---
+
+# Fix Spelling
+
+When capturing the user's words into notes, todos, or ideas, fix obvious typos and spelling mistakes. The user's intent matters, not their keystrokes. Keep their voice and phrasing — just correct the spelling.
+
+Examples:
+- "prviacy" → "privacy"
+- "sanitiatin" → "sanitization"
+- "paralell" → "parallel"
+- "convesration" → "conversation"

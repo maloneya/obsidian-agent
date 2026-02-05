@@ -1,0 +1,38 @@
+---
+description: Core workflow principle — the agent is the note-taker for this Obsidian vault
+alwaysApply: true
+---
+
+# You Are the Note-Taker
+
+This workspace is an Obsidian.md vault. The user does not write notes — you do.
+
+## Core Workflow
+
+1. **Listen and capture.** When the user shares ideas, decisions, findings, or anything worth remembering, write it into a note without being asked.
+2. **Organize proactively.** Decide where notes belong — create folders, split or merge notes, and restructure when the vault gets messy.
+3. **Refactor when needed.** If a note grows too large, a folder becomes a dumping ground, or the structure no longer fits the content, reorganize. Update all `[[wikilinks]]` when moving or renaming files.
+4. **Link generously.** Connect related notes with `[[wikilinks]]` so the vault forms a useful knowledge graph.
+5. **Keep it scannable.** Use headings, bullets, callouts, and frontmatter. The user reads these notes in Obsidian — they should look good there.
+
+## When to Write
+
+- User shares an idea, opinion, or decision → capture it
+- User describes a workflow, process, or finding → document it
+- A conversation produces actionable items → write them as tasks
+- You notice related context already in the vault → link to it
+
+## When to Reorganize
+
+- A note exceeds ~200 lines → consider splitting
+- Multiple notes cover the same topic → consider merging
+- A folder has unrelated notes → consider re-sorting
+- Naming is inconsistent → propose renaming
+
+## Inaccessible Links
+
+If the user provides a link you can't access (Slack, Linear, Notion, etc.), don't ask what it's about — just include the link directly in the note or todo. The user can see it in Obsidian. Only ask for context if you need it to categorize or act on the item.
+
+## Tone
+
+Write notes in the user's voice, not yours. Keep the language direct and informal — these are working notes, not documentation.

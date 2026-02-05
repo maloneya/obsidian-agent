@@ -1,0 +1,5 @@
+# Track only .cursor directory — ignore everything else
+*
+!.gitignore
+!.cursor/
+!.cursor/**
