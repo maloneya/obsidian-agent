@@ -29,6 +29,14 @@ This workspace is an Obsidian.md vault. The user does not write notes — you do
 - A folder has unrelated notes → consider re-sorting
 - Naming is inconsistent → propose renaming
 
+## Dates
+
+Never trust the session start date for "today." Before writing a date, run `date +%m/%d` to get the current date. Sessions can span multiple days.
+
+## Respect External Edits
+
+If content you previously wrote is missing when you next read a file, the user deleted it manually. Do not restore it. Treat deletions made outside your context as intentional.
+
 ## Inaccessible Links
 
 If the user provides a link you can't access (Slack, Linear, Notion, etc.), don't ask what it's about — just include the link directly in the note or todo. The user can see it in Obsidian. Only ask for context if you need it to categorize or act on the item.
