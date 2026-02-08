@@ -1,0 +1,45 @@
+---
+description: Conventions for notes in the Log/ directory — time-oriented, point-in-time captures
+globs: Log/**/*.md
+alwaysApply: false
+---
+
+# Log Notes
+
+The `Log/` directory holds time-oriented notes — meetings, one-off thoughts, investigations, and anything anchored to a specific moment. These are snapshots, not living documents.
+
+## File Naming
+
+Always use the format: `YYYY-MM-DD - Descriptive Title.md`
+
+Examples:
+- `2026-02-06 - Meeting With Alexey - Cloud Debug Mode.md`
+- `2026-02-05 - Meeting With Noor - Reliability Observability.md`
+- `2026-02-04 - HTTP1 vs HTTP2 Agent Transport Investigation.md`
+
+The ISO date prefix ensures correct chronological sorting in the Obsidian sidebar.
+
+## Detecting Meetings
+
+If the user's input or note content contains phrases like "chat with", "meeting with", "talked to", "synced with", "1:1 with", or similar, treat it as a meeting note. The title should follow the format: `YYYY-MM-DD - Meeting With <Person> - <Topic>.md`. The person's name belongs in the title so it's visible in the sidebar.
+
+## Frontmatter
+
+Every log note should have `date` and `tags`:
+
+```yaml
+---
+date: 2026-02-06
+tags: [observability, sentry]
+---
+```
+
+## Content
+
+- Can be rough and unpolished — these are working notes, not docs
+- No expectation of future updates — if you find yourself updating a log note repeatedly, it should be promoted to `Reference/`
+- Use wikilinks (`[[Note Name]]`) to connect to related notes
+
+## When to Promote
+
+If a log note evolves into something that gets continuously updated or referenced, move it to `Reference/` and drop the date prefix from the title.

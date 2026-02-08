@@ -1,0 +1,43 @@
+---
+description: Conventions for notes in the Reference/ directory — evergreen, continuously updated knowledge
+globs: Reference/**/*.md
+alwaysApply: false
+---
+
+# Reference Notes
+
+The `Reference/` directory holds evergreen notes — living documents that are continuously updated and referenced over time. The content should stay current.
+
+## File Naming
+
+Use clear, descriptive Title Case. No date prefix — the date isn't the point for evergreen content.
+
+Examples:
+- `Reliability Observability.md`
+- `Agent Loop Trace.md`
+- `Telemetry and Privacy Mode Audit Report.md`
+
+## Frontmatter
+
+Every reference note should have `tags` and optionally `last-updated`:
+
+```yaml
+---
+tags: [observability, reliability]
+last-updated: 2026-02-06
+---
+```
+
+Update `last-updated` whenever you make meaningful changes to the note.
+
+## Content
+
+- Keep information current — if something is outdated, update or remove it
+- Use headings and structure generously — people come back to these repeatedly
+- Use a table of contents for notes longer than ~5 sections
+- Use wikilinks (`[[Note Name]]`) to connect to related notes
+- Tags for cross-cutting themes (`#observability`, `#ide`, etc.)
+
+## When to Archive
+
+If a reference note becomes obsolete and no longer gets updated, consider moving it to `Log/` with a date prefix reflecting when it was last relevant.
